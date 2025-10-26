@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output
+
+# Production
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Firebase
+serviceAccountKey.json
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+
+# Hardhat
+cache/
+artifacts/
+ignition/deployments/
+typechain/
+typechain-types/
+
+# Misc
+*.pem
+.cache/
+.temp/
+.tmp/
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Frontend specific
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+
+# Backend specific
+backend/artifacts/
+backend/cache/
+backend/ignition/deployments/
